@@ -17,7 +17,7 @@ descriptor/service.sdl: descriptor/service.sdl.in extract_config.groovy stamp-st
 	if ! $(JAVA) -jar $(VALIDATOR) -s $@; then mv $@ $@.tmp; exit 1; fi
 
 stamp-storm:
-	git clone -b v0.9.3 https://github.com/apache/storm
+	git clone -b v0.9.5 https://github.com/apache/storm
 	touch $@
 
 $(VALIDATOR): stamp-cm_ext
