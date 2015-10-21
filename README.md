@@ -1,6 +1,7 @@
 # storm-csd
 Storm custom service descriptor (CSD) for Cloudera Manager
 
+0. 将操作系统的语言改为英文
 1. 安装maven
 2. 安装groovy
 2. 将https://repository.cloudera.com/cloudera/cloudera-repos添加到maven的mirror中
