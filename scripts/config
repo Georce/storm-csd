@@ -23,7 +23,7 @@ function properties_yaml {
                 for port in "${ports[@]}"; do
                     v+=" - $port"$'\n'
                 done
-                v=${v::-1} # remove trailing newline
+                #v=${v::-1} # remove trailing newline
                 ;;
             esac
 
